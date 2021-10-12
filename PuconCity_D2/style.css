@@ -1,0 +1,28 @@
+span.ig {
+    color:blue;
+}
+
+p.ig {
+    color:blueviolet;
+}
+h1,h2,blockquote{
+    text-align: center;
+} 
+p{
+    text-align: justify;
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+}
+ul,li{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+}
+ iframe {
+    margin:auto;
+    display:block;
+}
