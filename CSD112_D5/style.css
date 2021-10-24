@@ -1,0 +1,75 @@
+body{
+    margin: 15px 12px 15px 12px;
+    background-color:beige;
+}
+
+.h_2{
+    font-size: 40px;
+    color:aqua;
+}
+
+h1.h_1{
+    color: blueviolet;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color:red;
+}
+
+p#p_one::first-line{
+    color:blue;
+    text-transform: uppercase;
+}
+
+
+div.parent{
+    border: 3px dashed red;
+    padding:10px;
+}
+
+div.child{
+    font-weight: bolder;
+}
+
+.child-one{
+    color:rgb(7, 78, 28);
+    border:2px dotted peru;
+    margin:10px;
+    padding:10px;
+}
+
+.child-two{
+    color:rgb(236, 25, 183);
+    border:2px solid rgb(243, 120, 120);
+    margin:10px;
+    padding:10px;
+}
+
+.child-three{
+    color:rgb(4, 121, 86);
+    border:2px dashed rgb(53, 16, 221);
+    margin:10px;
+    padding:10px;
+}
+
+.wrapper{
+    color:orange;
+}
+
+div p{
+    color:purple;
+}
+
+p.one{
+    color: inherit;
+}
+
+p.two{
+    color:initial;
+}
+
+p.three{
+    color:unset;
+}
