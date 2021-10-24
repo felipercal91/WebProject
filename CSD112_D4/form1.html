@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+</head>
+<body>
+    <h1>This is the login page of the website</h1>
+    <form action="/index.html" method="GET" name="form-1" width="800" height="1000">
+        <label for="user_id">UserName:</label>
+        <input name="user_name" id="u_id" type="text" size="25" maxlength="50"><br/>
+
+        <label for="password">Password:</label>
+        <input name="password" id="password" type="password" size="25" autocomplete="off"><br/>
+
+        <input name="login_in" id="login_button" type="submit">
+    </form>
+
+    <div id="form-data">
+
+    </div>
+
+    <a href="registration.html">Goto Previous Page</a>
+
+    <script>
+        let target = document.getElementById('form-data');
+        new URLSearchParams(window.location.search).forEach((name,value) => {
+            target.append(`${value}-> ${name}`);
+            target.append(document.createElement('br'));
+        })
+    </script>
+</body>
+</html>

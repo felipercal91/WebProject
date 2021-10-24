@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-2 With Separations</title>
+</head>
+<body>
+    <h1>Here Fieldsets are implemented in Web-Form</h1>
+    <form id="abc" action="/form1.html" method="GET">
+        <!--This is our First Separation-->
+        <fieldset class="control-group">
+            <legend class="control-label">Let's Login after entering the main info here.</legend>
+            <label>
+                <input type="checkbox" id="checking1" name="checking1">Old User
+                <input type="checkbox" id="checking2" name="checking2">New User
+            </label><br><br>
+            <label>First Name:</label>
+            <input name="first_name" id="first_name" type="text"><br>
+            <label>Last Name:</label>
+            <input name="last_name" id="last_name" type="text"><br>
+            <label>Address:</label>
+            <textarea name="address" id="address" rows="10" cols="24"></textarea>
+        </fieldset>
+
+        <!--This is our Second Separation-->
+        <fieldset class="control-group">
+            <legend class="control-label">The user will add the additional info here.</legend>
+            <label>
+                Gender:<input type="checkbox" id="checking1" name="checking1">Male
+                <input type="checkbox" id="checking2" name="checking2">Female
+            </label><br><br>
+            <label>Phone:</label>
+            <input name="first_name" id="first_name" type="tel"><br>
+            <label>Email:</label>
+            <input name="last_name" id="last_name" type="email"><br>
+            <label>City Living:</label>
+            <select class="city_living">
+                <option value="1">New York</option>
+                <option value="2">Montreal</option>
+                <option value="3">Toronto</option>
+                <option value="4">Vancouver</option>
+                <option value="5">California</option>
+            </select>    
+        </fieldset>
+        <input name="sign-up" id="signup_button" type="submit">
+    </form>
+</body>
+</html>

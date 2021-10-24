@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More About HTML Web Forms</title>
+    <link rel="stylesheet" href="style.css" text="text/css"/>
+</head>
+<body>
+    <form name="multiple" action="form1.html" method="GET">
+        <div>
+            <label for="fn">First Name:</label>
+            <input name="first_name" id="first_name" type="text" required>
+        </div>
+
+        <div>
+            <label for="ln">Last Name:</label>
+            <input name="last_name" id="last_name" type="text" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input name="last_name" id="last_name" type="email" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label> 
+            <input name="age" id="age" type="number" min="1" max="100" step="5">
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label> 
+            <input name="dob" id="dob" type="date" min="10/01/2000" required>
+        </div>
+
+        <div>
+            Favorite Fruit:
+            <label for="banana">Banana</label>
+            <input name="cb1" id="cb1" type="checkbox">
+            <label for="banana">Apple</label>
+            <input name="cb2" id="cb2" type="checkbox">
+            <label for="banana">Pomegranate</label>
+            <input name="cb3" id="cb3" type="checkbox">
+        </div>
+
+        <div>
+            <!--To select one radio button at a time, use the same name for both-->
+            Gender: 
+            <label for="male">Male</label>
+            <input name="rb" id="rb1" type="radio">
+            <label for="female">Female</label>
+            <input name="rb" id="rb2" type="radio">
+        </div>
+
+        <div>
+            Eye Color:
+            <select class="eye-color">
+                <option value="1">Black</option>
+                <option value="2">Blue</option>
+                <option value="3">Brown</option>
+                <option value="4">Grey</option>
+            </select> 
+        </div>
+
+        <div>
+            <label for="bio">Bio Info:</label>
+           <textarea id="bio" name="bio" rows="10" cols="20"></textarea required>
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label> 
+            <input name="phone" id="phone" type="tel" required>
+        </div>
+
+        <div>
+            <label for="url">Website Link:</label> 
+            <input name="website" id="website" type="url">
+        </div>
+
+        <div>
+            <label for="color">Favorite Color:</label> 
+            <input name="fav-color" id="color" type="color">
+        </div>
+
+        <div>
+            <label for="password">Password:</label> 
+            <input name="pass" id="pass" type="password" required>
+        </div>
+
+        <div>
+            <label for="con-password">Confirm Password:</label> 
+            <input name="con-pass" id="con-pass" type="password" required>
+        </div>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
