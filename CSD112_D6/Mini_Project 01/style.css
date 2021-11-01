@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color:pink;
+    margin-left: 600px;
+}
+
+.p1{
+    border: 1px dashed lightgreen;
+    padding: 5px;
+}
+
+.p2{
+    background-color: yellow;
+    color: black;
+    padding:5px;
+}
+
+div.margin{
+    background-color: lightgrey;
+    border:1px dashed gray;
+    height:475px;
+    color: black;
+}
+
+div.border{
+    background-color: aquamarine;
+    height:340px;
+    border: 1.5px dotted black;
+}
+
+div.padding{
+    background-color: blueviolet;
+    height:225px;
+    border: 1.5px solid rgb(226, 21, 21);
+}
+
+div.content{
+    background-color: antiquewhite;
+    height: 100px;
+    border: 1.5px dashed rgb(16, 189, 219);
+}
+
+.box-model{
+    width:75%;
+    height:100%;
+    margin: 0 auto;
+}
