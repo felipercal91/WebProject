@@ -142,7 +142,7 @@ td:last-child {
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: square;
     margin: 0;
     padding: 0;
 }
@@ -263,7 +263,7 @@ form {
 header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url("img/bg-masthead.jpg") no-repeat center center;
+    background: url("https://images.pexels.com/photos/955395/pexels-photo-955395.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -283,4 +283,8 @@ header.masthead:before {
 header.masthead h1,
 header.masthead .h1 {
     font-size: 2rem;
+}
+
+.jobs_text {
+    text-align: center;
 }
